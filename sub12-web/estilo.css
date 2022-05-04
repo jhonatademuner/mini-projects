@@ -1,0 +1,142 @@
+/*==================== GENERAL STYLES ====================*/
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    line-height: 20px;
+    background-image: url(assets/Initial-Background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.centro {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    width: 1400px;
+}
+
+span {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*==================== HEADER ====================*/
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 75px;
+}
+
+header img {
+    height: 80px;
+    width: 80px;
+}
+
+.container-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1400px;
+}
+
+.container-header a {
+    text-decoration: none;
+    color: lightgray;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 2px solid lightgray;
+    padding-bottom: 5px;
+}
+
+/*==================== SLOGAN ====================*/
+.imagem-slogan {
+    display: flex;
+    flex-direction: row;
+    height: 625px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.slogan {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    color: white;
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.slogan h1 {
+    line-height: 50px;
+    font-size: 40px;
+    width: 360px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.slogan p {
+    font-size: 25px;
+    line-height: 30px;
+    width: 360px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.imagem-slogan img {
+    height: 625px;
+    width: 625px;
+}
+
+
+
+
+/*==================== QUEM SOMOS ====================*/
+
+.container-sobre {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 80px 0px 0px 0px;
+    line-height: 25px;
+}
+
+.container-sobre h2 {
+    color: dimgray;
+    font-size: 35px;
+    border-bottom: 2px solid gray;
+    padding-bottom: 20px;
+}
+
+.container-sobre p {
+    margin: 0px;
+    color: dimgray;
+    font-size: 20px;
+    text-align: center;
+    width: 75%;
+}
+
+.saiba-mais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(82, 82, 82);
+    height: 75px;
+    width: 290px;
+    margin-top: 50px;
+    border-radius: 10px 0px;
+}
+
+.saiba-mais a {
+    color: white;
+    font-size: 35px;
+}
