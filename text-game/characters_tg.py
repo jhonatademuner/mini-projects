@@ -43,13 +43,3 @@ def bird():
     print("  ┃┗━╯┈┈┃")
     print("  ╰━┳━┳━╯")
     print("    ┻━┻")
-
-def monster():
-
-    print("  █████████")
-    print("  █▄█████▄█")
-    print("  █▼▼▼▼▼")
-    print("  █^^")
-    print("  █▲▲▲▲▲")
-    print("  █████████")
-    print("   ██ ██")
