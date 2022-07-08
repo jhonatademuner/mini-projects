@@ -1,2 +1,2 @@
 # Projects
- I will use this repository to commit my projects, mainly programs made while i studying and some crazy ideas.
+Neste repositório irei colocar alguns projetos, principalmente programas feitos por mim enquanto estou estudando e ideias que me vierem a mente.
