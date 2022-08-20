@@ -9,55 +9,88 @@
 </head>
 
 <body>
-    <header>
+    <header class="container-fluid">
         <nav>
-            <a href="index.html">
-                <div class="logo">
-                    <img src="assets/logo.png" alt="logo">
-                    <h1>Coffeasy</h1>
-                </div>
-            </a>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Products</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+            <div id="nav-esquerda">
+                <a href="#">Nossos produtos</a>
+                <a href="#">Nossa história</a>
+            </div>
+            <a href="index.html"><img src="assets/logo.png" alt="logo"></a>
+            <div id="nav-direita">
+                <a href="#"><img src="assets/shopping-cart-svg-png-icon-download-28.png" alt="Carrinho"></a>
+                <a href="#">Entrar</a>
+                <a href="#">Registrar-se</a>
+            </div>
+
         </nav>
     </header>
+
     <main>
-        <div id="painel-principal">
-            <h2>Comodidade e Facilidade</h2>
-            <br>
-            <p>Nosso objetivo como empresa é sempre trazer a maior comodiade para os nossos clientes usando tecnologia
-                em cápsulas de café, normalmente não nos atentamos a essas questões mas uma cápsula de café que é fácil
-                de usar e tem um sabor incrível é algo raro. Mas esse problema é muito simples de se resolver, cápsulas
-                <span>Coffeasy</span> é a solução!</p>
-        </div>
-        <h3>Alguns dos nossos produtos</h3>
-        <div id="alguns-produtos">
-            <div class="produto">
-                <img src="assets/capuccino.jpg" alt="Capuccino">
-                <h4>Capuccino</h4>
-                <p>Bebida à base de café produzida com café espresso, leite vaporizado e espuma de leite.</p>
+        <section id="painel-principal">
+            <div>
+                <h1>Comodidade e Facilidade</h1>
+                <p>Facilitando seu café diário e sua vida, sempre com a melhor qualidade e atendimento!</p>
             </div>
-            <div class="produto">
-                <img src="assets/frapuccino.jpg" alt="Capuccino">
-                <h4>Frapuccino</h4>
-                <p>Bebida cremosa que inclui calda de chocolate, uma mistura de leite, café, chocolate e chantilly.</p>
+            <button>Conheça Nossos Cafés!</button>
+        </section>
+        <section id="mais-vendidos">
+            <div class="texto">
+                <h2>PRODUTOS MAIS VENDIDOS</h2>
+                <p>Tá afim de uma café quentinho?</p>
             </div>
-            <div class="produto">
-                <img src="assets/mocaccino.jpg" alt="Capuccino">
-                <h4>Mocaccino</h4>
-                <p>Bebida à base de café produzida com café espresso, leite vaporizado, chocolate e chantilly.</p>
+            <div id="produtos">
+                <div id="capuccino">
+                    <a href="#"><img src="assets/capuccino.png" alt="Capuccino"></a>
+                    <h3>Capuccino</h3>
+                    <p>Bebida à base de café produzida com café espresso, leite vaporizado e espuma de leite.</p>
+                </div>
+                <div id="frapuccino">
+                    <a href="#"><img src="assets/frapuccino.png" alt="Frapuccino"></a>
+                    <h3>Frapuccino</h3>
+                    <p>Bebida cremosa que inclui calda de chocolate, uma mistura de leite, café, chocolate e chantilly.</p>
+                </div>
+                <div id="macchiato">
+                    <a href="#"><img src="assets/macchiato.png" alt="Macchiato"></a>
+                    <h3>Macchiato</h3>
+                    <p>Bebida à base de café produzida com café espresso, leite condensado e leite integral.</p>
+                </div>
             </div>
-            <div class="produto">
-                <img src="assets/macchiato.jpg" alt="Capuccino">
-                <h4>Macchiato</h4>
-                <p>Bebida à base de café produzida com café espresso, leite condensado e leite integral.</p>
+        </section>
+        <section id="localizacao">
+            <div class="texto">
+                <h2>NOSSA LOCALIZAÇÃO</h2>
+                <p>Que tal fazer uma visitinha?</p>
             </div>
-        </div>
+            <div id="container-localizacao">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d1573.1142864638846!2d-40.338328892833495!3d-20.32023327012943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e0!4m0!4m3!3m2!1d-20.3196856!2d-40.3375184!5e0!3m2!1spt-BR!2sbr!4v1660183849304!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div id="endereco">
+                    <h3>Nosso Endereço:</h3>
+                    <br>
+                    <p>R. Prof. Baltazar, 96<br>Centro, Vitória - ES<br> 29015-180</p>
+                </div>
+            </div>
+        </section>
     </main>
+
+    <footer>
+        <div class="container-rodape">
+            <div id="principais-rodape">
+                <a href="#">Sobre a Coffeasy</a>
+                <a href="#">Contato</a>
+            </div>
+            <div id="secundarios-rodape">
+                <a href="#">Cookies</a>
+                <a href="#">Política de Privacidade</a>
+                <a href="#">Termos e Condições de Uso</a>
+                <a href="#">FAQs</a>
+            </div>
+            <div id="redes-rodape">
+                <a href="https://www.linkedin.com/in/jhonata-polito-84a149224" target="_blank"><img src="assets/linkedin-logo.png" alt="Linkedin"></a>
+                <a href="https://github.com/jhonataplt" target="_blank"><img src="assets/github-logo.png" alt="GitHub"></a>
+            </div>
+            <p><span>© Copyright - Coffeasy</span></p>
+        </div>
+    </footer>
 </body>
 
 </html>
