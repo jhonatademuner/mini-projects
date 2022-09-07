@@ -7,7 +7,7 @@
 body {
     display: flex;
     background-color: whitesmoke;
-    background-image: url(assets/painel-cafe-aberto.png);
+    background-image: url(../assets/painel-cafe-aberto.png);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: initial;
@@ -55,8 +55,8 @@ nav a{
 #nav-direita {
     display: flex;
     justify-content: space-between;
-    width: 320px;
-    padding-left: 30px;
+    width: 240px;
+    padding-left: 110px;
 }
 
 #nav-direita a img{
@@ -109,6 +109,11 @@ main {
     font-weight: 500;
     font-size: 25px;
     color: whitesmoke;
+}
+
+#painel-principal button:hover{
+    background-color: whitesmoke;
+    color: #2b2a28;
 }
 /* %========================================================== */
 #mais-vendidos {
