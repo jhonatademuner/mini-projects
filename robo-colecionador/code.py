@@ -10,9 +10,16 @@
 # "#" -> celula que contem uma pilastra;
 
 import msvcrt
+import os
+
+def clear():
+    if os.name == 'nt':
+        os.system('cls')
+    else:
+        os.system('clear')
 
 def imprimirArena(arena):
-    print("\n" * 45)
+    clear()
     print("||", "===" * len(arena), "||")
     for linha in arena:
         print("||", end="  ")
