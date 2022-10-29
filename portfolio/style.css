@@ -398,10 +398,6 @@ ul a li label i{
   text-align: justify;
 }
 
-#text-about p:nth-child(2){
-
-}
-
 #text-about ul{
   display: grid;
   grid-template-columns: 1fr 1fr;
