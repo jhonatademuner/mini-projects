@@ -48,8 +48,8 @@ body{
     height: 150px;
     width: 100%;
     margin-bottom: 30px;
-    background-color: var(--bg-color);
-    box-shadow: inset 0px 0px 10px 0px #07090d;
+    background-color: var(--secondary-color);
+    box-shadow: 0px 0px 10px 0px #07090d;
 }
 
 #visor label{
@@ -62,16 +62,30 @@ body{
     color: var(--text-color);
 }
 
-#historico{
+#opcoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: transparent;
     width: 20%;
     height: 100%;
     border-radius: 30px 0px 0px 0px;;
 }
 
-#historico span{
-    font-size: 100px;
-    color: var(--secondary-color);
+#opcoes div{
+    height: 5px;
+    width: 75%;
+    background-color: var(--bg-color);
+    border-radius: 10px;
+}
+
+#opcoes div:nth-child(1){
+    margin-bottom: 20px;
+}
+
+#opcoes div:nth-child(2){
+    margin-bottom: 20px;
 }
 
 #botoes{
@@ -97,7 +111,7 @@ button{
 }
 
 #botoes .botoes-claros{
-    background: radial-gradient(#22282e,var(--secondary-color)80%);
+    background: radial-gradient(#242b31,var(--secondary-color)80%);
 }
 
 #botoes button:nth-last-child(1){
