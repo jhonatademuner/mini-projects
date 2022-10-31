@@ -16,10 +16,24 @@
 
 body{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
     height: 100vh;
     background-color: var(--bg-color);
+}
+
+#contato{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    height: calc((100vh - 800px) / 2);
+    filter: invert(15%) sepia(24%) saturate(414%) hue-rotate(172deg) brightness(101%) contrast(91%);
+    justify-content: space-around;
+    width: 100px;
+}
+
+#contato img{
+    height: 30px;
 }
 
 #calculadora{
@@ -30,6 +44,7 @@ body{
     height: 800px;
     width: 625px;
     border-radius: 30px;
+    margin: auto 0;
     background-color: var(--primary-color);
     box-shadow: 0px 0px 25px #07090d;
 }
