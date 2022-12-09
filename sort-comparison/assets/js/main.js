@@ -1,4 +1,4 @@
-import * as sortingMethods from "sortingMethods.js";
+// import * as sortingMethods from "sortingMethods.js";
 
 function globalFunction(){
 
@@ -7,6 +7,8 @@ function globalFunction(){
     //$ =============================================================================================== $\\
     //$ ======================================| QUERY SELECTORS |====================================== $\\
     //$ =============================================================================================== $\\
+
+
 
     const leftArray = document.querySelector('#leftArray');
     const rightArray = document.querySelector('#rightArray');
@@ -232,8 +234,7 @@ function globalFunction(){
         }
     }
     
-    sortingMethods.bubbleSort()
-
+    
     function selectionSort(array){
     
         const arrayLength = array.length;

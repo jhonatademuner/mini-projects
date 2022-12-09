@@ -1,20 +1,15 @@
-export * as sortingMethods from "sortingMethods.js";
-
-async function bubbleSort(array, arraySide, delayMs){
+function bubbleSort(array){
     const arrayLength = array.length;
     for (let i = 0; i < arrayLength; i++){
         for (let j = 0; j < arrayLength - i - 1; j++){
-            visualIterationBubble(array, arraySide, j);
-            await new Promise(r => setTimeout(r, delayMs));
             if (array[j] > array[j + 1]){
                 aux = array[j];
                 array[j] = array[j + 1];
                 array[j + 1] = aux;
             }
-            visualChangeBubble(array, arraySide, j);
-            await new Promise(r => setTimeout(r, delayMs));
         }
     }
+    return array;
 }
 
 
