@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Comparison</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <section id="leftArrayContainer">
+        <div id="leftArray">
+        </div>
+    </section>
+
+    <div id="settingsArea">
+
+        <div id="leftArrayAlgorithmChoose">
+            <button id="bubbleSort">BUBBLE</button>
+            <button id="selectionSort">SELECTION</button>
+            <button id="insertionSort">INSERTION</button>
+            <button id="mergeSort">MERGE</button>
+            <button id="quickSort">QUICK</button>
+        </div>
+        
+        <div id="settingsContainer">
+
+            <section id="dataTypeContainer">
+                <h2>Tipo dos dados</h2>
+                <button id="integerButton">Inteiro</button>
+                <button id="floatButton">Float</button>
+                <button id="stringButton">String</button>
+            </section>
+
+            <section id="lengthChooseContainer">
+                <h2>Tamanho da lista</h2>
+                <input type="range" class="lengthChoose" min="2" max="200" value="100">
+                <input type="text" id="lengthInput" value="100"></text>
+                <button class="createArrayButton">Gerar nova lista</button>
+            </section>
+
+            <section id="timeMultiplierContainer">
+                <h2>Multiplicador de tempo</h2>
+                <button id="timeMultiplier25">0.25x</button>
+                <button id="timeMultiplier50">0.50x</button>
+                <button id="timeMultiplier75">0.75x</button>
+                <button id="timeMultiplier1"  class="selectedTime">1.0x</button>
+            </section>
+
+            <button id="sortButton">Comparar</button>
+
+        </div>
+
+        <div id="rightArrayAlgorithmChoose">
+            <button id="bubbleSort">BUBBLE</button>
+            <button id="selectionSort">SELECTION</button>
+            <button id="insertionSort">INSERTION</button>
+            <button id="mergeSort">MERGE</button>
+            <button id="quickSort">QUICK</button>
+        </div>
+    </div>
+    
+    <section id="rightArrayContainer">
+        <div id="rightArray">
+        </div>
+    </section>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
