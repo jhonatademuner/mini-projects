@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,13 +26,6 @@
         
         <div id="settingsContainer">
 
-            <section id="dataTypeContainer">
-                <h2>Tipo dos dados</h2>
-                <button id="integerButton">Inteiro</button>
-                <button id="floatButton">Float</button>
-                <button id="stringButton">String</button>
-            </section>
-
             <section id="lengthChooseContainer">
                 <h2>Tamanho da lista</h2>
                 <input type="range" class="lengthChoose" min="2" max="200" value="100">
@@ -42,10 +35,12 @@
 
             <section id="timeMultiplierContainer">
                 <h2>Multiplicador de tempo</h2>
-                <button id="timeMultiplier25">0.25x</button>
-                <button id="timeMultiplier50">0.50x</button>
-                <button id="timeMultiplier75">0.75x</button>
-                <button id="timeMultiplier1"  class="selectedTime">1.0x</button>
+                <div>
+                    <button id="timeMultiplier25">0.25x</button>
+                    <button id="timeMultiplier50">0.50x</button>
+                    <button id="timeMultiplier75">0.75x</button>
+                    <button id="timeMultiplier1"  class="selectedTime">1.0x</button>
+                </div>
             </section>
 
             <button id="sortButton">Comparar</button>

@@ -19,6 +19,7 @@ body{
     align-items: center;
     background-color: var(--bg-color);
     height: 100vh;
+    width: 100%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -102,42 +103,6 @@ button{
     transition: all 300ms ease-in-out;
 }
 
-#dataTypeContainer{
-    background-color: var(--bg-color);
-    border-radius: 20px;
-    color: var(--text-color);
-    width: 240px;
-}
-
-#dataTypeContainer h2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 32px;
-    border-radius: 20px 20px 0 0;
-    background-color: var(--secondary-color);
-    border-bottom: solid 3px var(--bg-color);
-    font-size: 20px;
-}
-
-#dataTypeContainer button{
-    background-color: transparent;
-    border: none;
-    height: 40px;
-    width: 76px;
-    font-size: 18px;
-    color: var(--text-color);
-}
-
-#dataTypeContainer button:nth-child(2){
-    border-radius: 0 0 0 20px;
-    background-color: var(--secondary-color);
-}
-
-#dataTypeContainer button:nth-last-child(1){
-    border-radius: 0 0 20px 0;
-}
-
 #lengthChooseContainer{
     display: flex;
     justify-content: center;
@@ -185,6 +150,8 @@ button{
     color: var(--text-color);
     width: 240px;
     transition: all 300ms ease-in-out;
+    display: flex;
+    flex-direction: column;
 }
 
 #timeMultiplierContainer h2{
@@ -198,22 +165,28 @@ button{
     font-size: 20px;
 }
 
+#timeMultiplierContainer div {
+    display: flex;
+}
+
 #timeMultiplierContainer button{
     background-color: transparent;
     border: none;
+    margin: 0;
+    padding: 0;
     height: 40px;
-    width: 56px;
+    width: 60px;
     font-size: 18px;
     color: var(--text-color);
     transition: all 300ms ease-in-out;
 }
 
-#timeMultiplierContainer button:nth-child(2){
+#timeMultiplierContainer div button:nth-child(1){
     border-radius: 0 0 0 20px;
 }
 
 #timeMultiplierContainer .selectedTime{
-    background-color: var(--secondary-color);
+    background-color:  var(--secondary-color);
 }
 
 #timeMultiplierContainer button:nth-last-child(1){
@@ -290,6 +263,10 @@ button{
     background-color: red;
 }
 
-.nextElement{
+.secondaryElement{
     background-color: green;
+}
+
+.tertiaryElement{
+    background-color: yellow;
 }
