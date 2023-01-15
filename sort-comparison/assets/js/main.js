@@ -521,6 +521,9 @@ function globalFunction() {
                 case 'merge':
                     mergeSort(leftArrayContent, leftArray, delayMs);
                     break;
+                case 'quick':
+                    quickSort(leftArrayContent, leftArray, delayMs);
+                    break;
                 default:
                     break;
             }
@@ -540,7 +543,6 @@ function globalFunction() {
                     break;
                 case 'quick':
                     quickSort(rightArrayContent, rightArray, delayMs);
-                    console.log(rightArrayContent);
                     break;
                 default:
                     break;
